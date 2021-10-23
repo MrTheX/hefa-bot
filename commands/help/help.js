@@ -54,7 +54,7 @@ module.exports = {
 
         emx.addField(`${category.toUpperCase()}[${value.length}]`, desc);
       }
-     emx.addField('important links ','**:link:  [Support](https://dsc.gg/abotsupport)**  | **[website](https://automodbot.com)**')
+     emx.addField('important links ','**:link:  [Support](https://dsc.gg/top.gg)**  | **[website](https://discord.gg)**')
       return message.channel.send(emx)
 
     }
