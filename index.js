@@ -140,7 +140,7 @@ client.on("ready", () => {
 
 client.on
 client.on("ready", () => {
-    client.user.setActivity("qhelp|Made By cwkhan ", { type: "PLAYING"})
+    client.user.setActivity("r!help", { type: "PLAYING"})
 })
 const { Player } = require("discord-music-player");
 const player = new Player(client, {
@@ -224,4 +224,4 @@ require("./ExtendedMessage");
     
     
 
-client.login("OTAxMzUwMzM3MTQ1ODgwNTc2.YXOl6g.gasfF4nOhDuo1fhPsVTIwJF5lVE");
+client.login("OTYzMTQ0NDkxODU2OTUzMzk2.YlR0NQ.XlUcAOcg7UYXWPaZbH9eS3nE52E");
